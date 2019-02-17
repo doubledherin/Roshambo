@@ -9,12 +9,12 @@
 import UIKit
 
 enum Choice: String {
-    case Rock = "rock"
-    case Paper = "paper"
-    case Scissors = "scissors"
+    case Rock = "Rock"
+    case Paper = "Paper"
+    case Scissors = "Scissors"
     
     static func randomChoice() -> Choice {
-        let choices = ["rock", "paper", "scissors"]
+        let choices = ["Rock", "Paper", "Scissors"]
         let index = Int(arc4random_uniform(3))
         return Choice(rawValue: choices[index])!
     }

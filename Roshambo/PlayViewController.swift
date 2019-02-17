@@ -16,6 +16,17 @@ class PlayViewController: UIViewController {
         present(controller, animated: true, completion: nil)
     }
     
+    @IBAction private func playPaper(_ sender: UIButton) {
+        performSegue(withIdentifier: "playSegue", sender: sender)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "playSegue" {
+            let controller = segue.destination as! ResultsViewController
+            controller.playerChoice = getPlayerChoice(sender as! UIButton)
+        }
+    }
+    
     private func getPlayerChoice(_ sender: UIButton) -> Choice {
         let choice = sender.title(for: .normal)!
         return Choice(rawValue: choice)!
