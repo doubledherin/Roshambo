@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		611E1E3C221869950007CE43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E1E3B221869950007CE43 /* AppDelegate.swift */; };
-		611E1E3E221869950007CE43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E1E3D221869950007CE43 /* ViewController.swift */; };
+		611E1E3E221869950007CE43 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E1E3D221869950007CE43 /* PlayViewController.swift */; };
 		611E1E41221869950007CE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E1E3F221869950007CE43 /* Main.storyboard */; };
 		611E1E43221869950007CE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611E1E42221869950007CE43 /* Assets.xcassets */; };
 		611E1E46221869950007CE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611E1E44221869950007CE43 /* LaunchScreen.storyboard */; };
 		611E1E51221869950007CE43 /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E1E50221869950007CE43 /* RoshamboTests.swift */; };
+		611E1E5C22186B7D0007CE43 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611E1E5B22186B7D0007CE43 /* ResultsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		611E1E38221869950007CE43 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		611E1E3B221869950007CE43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		611E1E3D221869950007CE43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		611E1E3D221869950007CE43 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
 		611E1E40221869950007CE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		611E1E42221869950007CE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		611E1E45221869950007CE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		611E1E4C221869950007CE43 /* RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		611E1E50221869950007CE43 /* RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboTests.swift; sourceTree = "<group>"; };
 		611E1E52221869950007CE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611E1E5B22186B7D0007CE43 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,11 +80,12 @@
 			isa = PBXGroup;
 			children = (
 				611E1E3B221869950007CE43 /* AppDelegate.swift */,
-				611E1E3D221869950007CE43 /* ViewController.swift */,
+				611E1E3D221869950007CE43 /* PlayViewController.swift */,
 				611E1E3F221869950007CE43 /* Main.storyboard */,
 				611E1E42221869950007CE43 /* Assets.xcassets */,
 				611E1E44221869950007CE43 /* LaunchScreen.storyboard */,
 				611E1E47221869950007CE43 /* Info.plist */,
+				611E1E5B22186B7D0007CE43 /* ResultsViewController.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -199,8 +202,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611E1E3E221869950007CE43 /* ViewController.swift in Sources */,
+				611E1E3E221869950007CE43 /* PlayViewController.swift in Sources */,
 				611E1E3C221869950007CE43 /* AppDelegate.swift in Sources */,
+				611E1E5C22186B7D0007CE43 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
